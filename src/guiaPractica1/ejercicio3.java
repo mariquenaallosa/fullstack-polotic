@@ -12,11 +12,14 @@ public class ejercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ingrese el primer número");
+        System.out.println("Ingrese un número");
         int num1 = scanner.nextInt();
+        scanner.nextLine();
 
-        System.out.println("Ingrese el segundo número");
+        System.out.println("Ingrese otro número");
         int num2 = scanner.nextInt();
+        scanner.nextLine();
+
 
         // Operaciones
         int resultadoSuma = num1 + num2;
@@ -26,10 +29,10 @@ public class ejercicio3 {
 
 
         System.out.println("Resultados de las operaciones entre " + num1 + " y "+ num2);
-        System.out.println("Suma = "+ resultadoSuma);
-        System.out.println("Resta = "+ resultadoResta);
-        System.out.println("Multiplicación = "+ resultadoMulti);
-        System.out.println("División 3= "+ resultadoDivi);
+        System.out.println("La suma de los números es: "+ resultadoSuma);
+        System.out.println("La resta de los números es: "+ resultadoResta);
+        System.out.println("La multiplicación de los números es: "+ resultadoMulti);
+        System.out.println("La división de los números es: "+ resultadoDivi);
 
 
     }
