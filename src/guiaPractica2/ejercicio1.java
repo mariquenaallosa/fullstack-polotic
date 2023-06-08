@@ -12,6 +12,12 @@ public class ejercicio1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ingrese un número entero para generar la tabla de multipliacion");
+        System.out.println("Ingrese un número entero para generar la tabla de multiplicación");
+        int numero = scanner.nextInt();
+
+        System.out.println("Tabla del "+ numero);
+        for (int i = 0 ; i<=10 ; i++){
+            System.out.println(numero + " * " + i + " = " + numero*i);
+        }
     }
 }
