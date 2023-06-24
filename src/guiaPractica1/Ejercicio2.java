@@ -7,7 +7,7 @@ import java.util.Scanner;
 * "Hola, " completando el mensaje con el nombre que ingresó el usuario.
 *
 */
-public class ejercicio2 {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su nombre");

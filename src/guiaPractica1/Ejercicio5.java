@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Recordá que el área y el perímetro se calculan con las siguientes fórmulas:
  * area = PI × radio² perimetro = 2 × PI × radio
  */
-public class ejercicio5 {
+public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

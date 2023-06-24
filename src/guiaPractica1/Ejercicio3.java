@@ -8,7 +8,7 @@ import java.util.Scanner;
 * entre ambos valores. Los resultados deben mostrarse por pantalla.
 *
 */
-public class ejercicio3 {
+public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Tip: los palíndromos son palabras que se leen igual de izquierda a derecha y viceversa. Por ejemplo, reconocer.
  */
 
-public class ejercicio2 {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

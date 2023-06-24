@@ -9,7 +9,7 @@ import java.util.Scanner;
  * los  valores  edad1  =  24  y  edad2  =  35,  el  programa  deberá
  * mostrar edad1 = 35 y edad2 = 24
  */
-public class ejercicio7 {
+public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

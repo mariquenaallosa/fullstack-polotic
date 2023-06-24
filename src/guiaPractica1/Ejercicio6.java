@@ -1,7 +1,5 @@
 package guiaPractica1;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 /**
@@ -9,7 +7,7 @@ import java.util.Scanner;
  * de  descuento.  A  continuación  mostrar  por  pantalla  el  importe
  * descontado y el importe a pagar.
  */
-public class ejercicio6 {
+public class Ejercicio6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el precio del producto");

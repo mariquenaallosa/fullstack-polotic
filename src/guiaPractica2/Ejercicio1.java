@@ -8,7 +8,7 @@ import java.util.Scanner;
  * continuación, mostrar la tabla de multiplicar de ese número.
  *
  */
-public class ejercicio1 {
+public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
