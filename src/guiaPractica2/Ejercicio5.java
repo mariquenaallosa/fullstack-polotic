@@ -7,25 +7,28 @@ import java.util.Scanner;
  */
 
 public class Ejercicio5 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese el número para generara la serie de Fibonacci correspondiente: ");
-        int cantidad = scanner.nextInt();
-        int[] fibonacci = new int[cantidad];
+        public static void main(String[] args) {
+            // Crear objeto Scanner para leer la entrada del usuario
+            Scanner scanner = new Scanner(System.in);
 
-        fibonacci[0]= 0;
-        fibonacci[1]= 1;
+            // Solicitar al usuario que ingrese el valor de n
+            System.out.print("Ingrese el valor de n: ");
+            int n = scanner.nextInt();
 
-        for (int i = 2; i < cantidad; i++){
-
+            // Mostrar los primeros n términos de la sucesión de Fibonacci
+            System.out.println("Sucesión de Fibonacci hasta el término " + n + ":");
+            for (int i = 1; i <= n; i++) {
+                System.out.print(fibonacci(i) + " ");
+            }
         }
 
-        scanner.close();
-
-        System.out.println("Números ordenados:");
-        for (int i = 0; i < cantidad; i++) {
-            System.out.print(fibonacci[i] + "  ");
+        // Método para calcular el término n de la sucesión de Fibonacci
+        public static int fibonacci(int n) {
+            if (n <= 1) {
+                return n;
+            } else {
+                return fibonacci(n - 1) + fibonacci(n - 2);
+            }
         }
-    }
 
 }
